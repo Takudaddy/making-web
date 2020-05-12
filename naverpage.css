@@ -1,0 +1,4 @@
+header { background: #00c73c;}
+header h1 { font-size: 0;}
+header h1 a:first-child { display: inline-block; width: 41px; height:41px; background:url(타쿠-2.jpg) no-repeat 0 0; / 41px auto; font-size:17px; color: #fff; padding: 0 0 0 49px; line-height: 41px; vertical-align:middle;}
+header h1 a:last-child { font-size:17px; color: #fff; padding: 0 0 0 8px; line-height: 41px;}

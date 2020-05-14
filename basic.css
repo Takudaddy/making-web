@@ -1,0 +1,10 @@
+body { padding: 50px;}
+.detail ul:after { content:""; display:block; clear:both;}
+.detail { padding: 20px 20px; width:297px; border: 1px solid #efefef;}
+.detail h2 { font-size: 17px; color:#666; padding: 0 0 12px;}
+.detail li { position: relative; float: left; padding: 0 7px 0 0; line-height: 24px;}
+.detail li:after { content:""; display: block; position: absolute; right: 3px; top: 6px;
+width: 1px; height:13px; background:#cacaca; }
+/* 인라인 요소는 가로세로를 제공하지 않기에 블럭레벨로 바꿔준것이다 */
+.detail li a { font-size: 13px; color:#666;}
+.detail li.none:after {display:none; }
